@@ -1,0 +1,255 @@
+body{
+    background: #EDD263;
+}
+
+.container{
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+nav ul {
+    float: right;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 35px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-input{
+    text-align: center;
+}
+
+.search-input input {
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 22px;
+    font-size: 20px;
+}
+
+.search-input button {
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 22px;
+    font-size: 20px;
+    margin-left: -25px;
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.search-input button:hover{
+    background: #0101af;
+}
+.search-input button:active{
+    background: cornflowerblue;
+}
+
+#show-meal-item {
+    margin-top: 80px;
+}
+
+#food-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.single-food-box {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #e7e6e6;
+    cursor: pointer;
+}
+
+.single-food-box img {
+    width: 100%;
+}
+
+
+/*-------------------------*/
+
+.single-food-box button {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.single-food-box h1 {
+    margin: 10px;
+}
+
+#show-food-details{
+    margin: auto;
+}
+
+body{
+    background: #EDD263;
+}
+
+.container{
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    margin: 30px 0;
+    overflow: hidden;
+}
+
+nav ul {
+    float: right;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    font-size: 35px;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.search-input{
+    text-align: center;
+}
+
+.search-input input {
+    width: 400px;
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 22px;
+    font-size: 20px;
+}
+
+.search-input button {
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 22px;
+    font-size: 20px;
+    margin-left: -25px;
+    cursor: pointer;
+    background: darkblue;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.search-input button:hover{
+    background: #0101af;
+}
+.search-input button:active{
+    background: cornflowerblue;
+}
+
+#show-meal-item {
+    margin-top: 80px;
+}
+
+#food-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.single-food-box {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.single-food-box img {
+    width: 100%;
+}
+
+.single-food-box h1{
+    transition: 0.5s;
+}
+
+.single-food-box:hover h1{
+    transform: rotateY(-360deg);
+    color: tomato;
+}
+
+.single-food-box:hover {
+    transform: scale(1.1);
+}
+
+#show-food-details{
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+}
+div#show-food-details img {
+    width: 100%;
+}
+
+.foodInfo-details {padding: 0px 20px;}
+
+div#show-error {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}

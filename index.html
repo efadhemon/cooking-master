@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <nav>
+            <a href="#">Cooking Master</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search-area">
+        <div class="container">
+            <div class="search-input">
+                <input id="input-food" placeholder="Search for Meal..." type="text">
+                <button onclick="showFoodItems()">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <div id="show-error"></div>
+
+    <div id="details-area">
+        <div id="show-food-details"></div>
+    </div>
+
+    <section id="show-meal-item">
+        <div class="container">
+            <div id="food-box">
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
