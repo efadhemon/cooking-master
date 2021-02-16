@@ -32,6 +32,7 @@ const showErrorText = () => {
 // display food items function
 const showFoods = foodItems => {
     const foodBox = document.getElementById('food-box');
+    foodBox.innerHTML = '';
     const foodList = foodItems.meals;
     foodList.forEach(foodItem => {
         const foodName = foodItem.strMeal;
@@ -90,3 +91,7 @@ const showDetailsInfo = selectedFood => {
     });
     document.getElementById('details-box').style.display = 'block';
 }
+
+document.addEventListener('contextmenu', function(programmerEmon){
+    programmerEmon.preventDefault();
+})
